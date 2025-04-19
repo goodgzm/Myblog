@@ -1,0 +1,1 @@
+sudo cp -rf ./blog/public/* /var/www/html
