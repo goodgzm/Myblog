@@ -5,9 +5,9 @@
 # Site
 title: Hexo
 subtitle: ''
-description: ''
+description: '修练于世间'
 keywords:
-author: John Doe
+author: Gao David
 language: en
 timezone: ''
 
@@ -96,9 +96,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+mathjax:
+  enable: true
+  per_page: true
