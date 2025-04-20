@@ -62,8 +62,8 @@ favicon:
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
-# custom_logo: #/uploads/custom-logo.png
-custom_logo: /images/favicon-96x96.png
+  custom_logo: #/uploads/custom-logo.png
+# custom_logo: /images/favicon-96x96.png
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/about/cclicenses/
@@ -83,7 +83,8 @@ creative_commons:
 open_graph:
   enable: true
   options:
-    twitter_card: <twitter:card>
+    type : blog
+    # twitter_card: <twitter:card>
     # twitter_id: <twitter:creator>
     # twitter_site: <twitter:site>
     # twitter_image: <twitter:image>
@@ -102,10 +103,10 @@ open_graph:
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  about: /about/ || fa fa-user
-  # tags: /tags/ || fa fa-tags
-  # categories: /categories/ || fa fa-th
-  # archives: /archives/ || fa fa-archive
+  # about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
   # schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404/ || fa fa-heartbeat
@@ -113,7 +114,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 
 # ---------------------------------------------------------------
@@ -162,8 +163,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  GitHub: https://github.com/goodgzm || fab fa-github
+  E-Mail: mailto:goodzeming@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
