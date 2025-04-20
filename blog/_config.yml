@@ -106,3 +106,10 @@ deploy:
 mathjax:
   enable: true
   per_page: true
+
+feed:
+    type: atom
+    path: atom.xml
+    # 用于限制 RSS 中初始多少 feed
+    limit: 20
+  
