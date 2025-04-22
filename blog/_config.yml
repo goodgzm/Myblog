@@ -8,7 +8,10 @@ subtitle: ''
 description: '修练于世间'
 keywords:
 author: Gao David
-language: en
+language:
+  - zh-CN
+  - en
+  
 timezone: ''
 
 # URL
