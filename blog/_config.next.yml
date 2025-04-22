@@ -149,11 +149,11 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/heading1.jpg
   # If true, the avatar will be displayed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -181,11 +181,14 @@ social_icons:
 # Blog rolls
 links_settings:
   icon: fa fa-globe
+  # title: 友情链接
   # Available values: block | inline
   layout: block
 
 links:
-  #Title: https://example.com
+  # Title: https://example.com
+  # Hexo: https://hexo.io
+  # NexT: https://theme-next.js.org/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
