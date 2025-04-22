@@ -23,6 +23,7 @@
     "hexo-renderer-pandoc": "^0.5.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
+    "hexo-tag-cloud": "^2.1.2",
     "hexo-theme-landscape": "^1.0.0"
   }
 }

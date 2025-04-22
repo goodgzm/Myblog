@@ -112,4 +112,12 @@ feed:
     path: atom.xml
     # 用于限制 RSS 中初始多少 feed
     limit: 20
+
+# hexo-tag-cloud
+tag_cloud:
+    textFont: Trebuchet MS, Helvetica
+    textColor: '#333'
+    textHeight: 25
+    outlineColor: '#E2E1D1'
+    maxSpeed: 0.1 
   
