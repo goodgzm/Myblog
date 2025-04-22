@@ -8,7 +8,7 @@ categories:
     - 强化学习
 ---
 LAG 是一个轻量级的空战对抗环境，主要包含6种场景任务。 
-
+<!--more-->
 ##  一、安装
 ```bash
 conda create -n LAG python==3.9 
