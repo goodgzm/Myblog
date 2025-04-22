@@ -108,7 +108,7 @@ deploy:
 
 mathjax:
   enable: true
-  per_page: true
+  # per_page: true
 
 feed:
     type: atom

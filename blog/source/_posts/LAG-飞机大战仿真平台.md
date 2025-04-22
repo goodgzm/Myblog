@@ -6,6 +6,7 @@ tags:
     - 仿真环境
 categories:
     - 强化学习
+mathjax: true
 ---
 LAG 是一个轻量级的空战对抗环境，主要包含6种场景任务。 
 <!--more-->
@@ -13,7 +14,6 @@ LAG 是一个轻量级的空战对抗环境，主要包含6种场景任务。
 ```bash
 conda create -n LAG python==3.9 
 ```
-
 ```bash
 annotated-types==0.7.0
 asttokens==3.0.0
@@ -110,18 +110,15 @@ zipp==3.20.2
  •	PH 触发条件：当 ego_z <= danger_altitude（默认 3.5 km）时触发。
 2. Reward 计算  
  •	速度惩罚 (Pv)
-$$
-Pv = -\text{clip} \left( \frac{\text{ego_vz}}{\text{Kv}} \times \frac{\text{safe_altitude} - \text{ego_z}}{\text{safe_altitude}}, 0, 1 \right)
-$$
-$Pv = -\text{clip} \left( \frac{\text{ego_vz}}{\text{Kv}} \times \frac{\text{safe_altitude} - \text{ego_z}}{\text{safe_altitude}}, 0, 1 \right)$
+$ Pv = -\clip \left( \frac{\ego_vz}{\Kv} \times \frac{safe_altitude - ego_z}{safe_altitude}, 0, 1 \right) $
 
 其中：  
    		•	$ ego_vz / Kv $代表速度对惩罚的影响 (Kv 默认 0.2 mh，即 68 m/s)。  
-   	 	•	$ (\text{safe_altitude} - \text{ego_z}) / \text{safe_altitude}  $表示低空飞行的程度，越低惩罚越大。  
+   	 	•	$ (safe_altitude - ego_z) / safe_altitude $表示低空飞行的程度，越低惩罚越大。  
    	 	•	clip 限制 Pv 在 [-1, 0] 范围内。  
     	•	高度惩罚 (PH)
 
-$ PH = \text{clip} \left( \frac{\text{ego_z}}{\text{danger_altitude}}, 0, 1 \right) - 1 - 1 $
+$ PH = \clip \left( \frac{ego_z}{\danger_altitude}, 0, 1 \right) - 1 - 1 $
 
 其中：  
    		•	当 ego_z == danger_altitude 时：PH = -1。  
@@ -129,7 +126,7 @@ $ PH = \text{clip} \left( \frac{\text{ego_z}}{\text{danger_altitude}}, 0, 1 \rig
     		•	低于 danger_altitude 的 ego_z 越小，PH 罚分越大，最差 -2。
 
 <font style="color:#0e0e0e;">•	最终 reward 计算  
-</font>$ \text{reward} = Pv + PH $
+</font>$ reward = Pv + PH $
 
 <font style="color:#0e0e0e;">    •	    Pv 取值范围：[-1, 0]</font>
 
@@ -165,17 +162,13 @@ $ PH = \text{clip} \left( \frac{\text{ego_z}}{\text{danger_altitude}}, 0, 1 \rig
 
 <font style="color:#0e0e0e;">本函数根据四个飞行变量计算 reward，每个变量的奖励值 r 都由高斯函数计算：</font>
 
-$ 
-r = \exp\left(-\left(\frac{\text{误差值}}{\text{误差缩放因子}}\right)^2\right)
- $
+$ r = \exp\left(-\left(\frac{\text{误差值}}{\text{误差缩放因子}}\right)^2\right) $
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/35217974/1742195745951-7758b016-da0a-4f39-a3bf-d65a0f86340d.png)
 
 <font style="color:#0e0e0e;">最终 reward 计算：</font>
 
-$ 
-\text{reward} = (heading_r \times alt_r \times roll_r \times speed_r)^{\frac{1}{4}}
- $
+$ \text{reward} = (heading_r \times alt_r \times roll_r \times speed_r)^{\frac{1}{4}} $
 
 <font style="color:#0e0e0e;">	•	这是几何均值，确保所有参数影响均衡，不会被某个单独参数主导。</font>
 
