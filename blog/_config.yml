@@ -142,8 +142,10 @@ live2d:
     use: live2d-widget-model-tororo  #选择哪种模型
   display: #放置位置和大小
     position: right
-    width: 150
-    height: 300
+    width: 80      # 缩小宽度
+    height: 200     # 缩小高度
+    hOffset: -25     # 可选：水平偏移量，向内缩一些
+    vOffset: -40    # 可选：垂直偏移量，负值表示更贴近底部
   mobile:
     show: true #是否在手机端显示
 
