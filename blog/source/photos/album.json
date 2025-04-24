@@ -1,0 +1,158 @@
+{
+   "album": [
+      {
+         "time": {
+            "year": 2025,
+            "month": 4,
+            "day": 23
+         },
+         "type": "album type",
+         "model": "",
+         "position": {
+            "city": "beijing",
+            "street": "Tiananmen"
+         },
+         "title": "苏州",
+         "balabala": "description of album",
+         "image_info": [
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f2.2",
+               "EXIF_FocalLength": "111/50mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/179s",
+               "EXIF_ISOSpeedRatings": "40",
+               "Image_DateTime": "2023:08:12 17:51:34",
+               "url": "http://cdn.gzm.red/suzhou/suzhou4.jpeg"
+            },
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f1.8",
+               "EXIF_FocalLength": "343/50mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/259s",
+               "EXIF_ISOSpeedRatings": "80",
+               "Image_DateTime": "2023:08:13 14:03:05",
+               "url": "http://cdn.gzm.red/suzhou/suzhou2.jpeg"
+            },
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f1.8",
+               "EXIF_FocalLength": "343/50mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/2252s",
+               "EXIF_ISOSpeedRatings": "80",
+               "Image_DateTime": "2023:08:13 17:05:58",
+               "url": "http://cdn.gzm.red/suzhou/suzhou3.jpeg"
+            },
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f1.8",
+               "EXIF_FocalLength": "343/50mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/33s",
+               "EXIF_ISOSpeedRatings": "400",
+               "Image_DateTime": "2023:08:11 22:01:14",
+               "url": "http://cdn.gzm.red/suzhou/suzhou1.jpeg"
+            }
+         ],
+         "directory": "suzhou"
+      },
+      {
+         "time": {
+            "year": 2025,
+            "month": 4,
+            "day": 23
+         },
+         "type": "album type",
+         "model": "",
+         "position": {
+            "city": "beijing",
+            "street": "Tiananmen"
+         },
+         "title": "扬州",
+         "balabala": "description of album",
+         "image_info": [
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f2.2",
+               "EXIF_FocalLength": "111/50mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/166s",
+               "EXIF_ISOSpeedRatings": "40",
+               "Image_DateTime": "2023:03:25 16:56:02",
+               "url": "http://cdn.gzm.red/yangzhou/yangzhou2.jpeg"
+            },
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f1.8",
+               "EXIF_FocalLength": "343/50mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/3247s",
+               "EXIF_ISOSpeedRatings": "80",
+               "Image_DateTime": "2023:03:26 14:27:04",
+               "url": "http://cdn.gzm.red/yangzhou/yangzhou3.jpeg"
+            },
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f1.8",
+               "EXIF_FocalLength": "343/50mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/4762s",
+               "EXIF_ISOSpeedRatings": "80",
+               "Image_DateTime": "2023:03:26 15:06:58",
+               "url": "http://cdn.gzm.red/yangzhou/yangzhou1.jpeg"
+            }
+         ],
+         "directory": "yangzhou"
+      },
+      {
+         "time": {
+            "year": 2025,
+            "month": 4,
+            "day": 24
+         },
+         "type": "album type",
+         "model": "",
+         "position": {
+            "city": "beijing",
+            "street": "Tiananmen"
+         },
+         "title": "杭州",
+         "balabala": "description of album",
+         "image_info": [
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f1.8",
+               "EXIF_FocalLength": "343/50mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/107s",
+               "EXIF_ISOSpeedRatings": "250",
+               "Image_DateTime": "2024:06:29 18:13:52",
+               "url": "http://cdn.gzm.red/hangzhou/hangzhou2.jpeg"
+            },
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f2.2",
+               "EXIF_FocalLength": "111/50mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/100s",
+               "EXIF_ISOSpeedRatings": "320",
+               "Image_DateTime": "2024:06:29 19:07:04",
+               "url": "http://cdn.gzm.red/hangzhou/hangzhou1.jpeg"
+            },
+            {
+               "Image_Model": "iPhone 14 Pro",
+               "EXIF_FNumber": "f2.8",
+               "EXIF_FocalLength": "9mm",
+               "EXIF_ExposureMode": "Auto Exposure",
+               "EXIF_ExposureTime": "1/418s",
+               "EXIF_ISOSpeedRatings": "32",
+               "Image_DateTime": "2024:07:01 14:34:54",
+               "url": "http://cdn.gzm.red/hangzhou/hangzhou3.jpeg"
+            }
+         ],
+         "directory": "hangzhou"
+      }
+   ]
+}

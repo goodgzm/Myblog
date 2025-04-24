@@ -145,5 +145,5 @@ live2d:
     width: 150
     height: 300
   mobile:
-    show: false #是否在手机端显示
+    show: true #是否在手机端显示
 
